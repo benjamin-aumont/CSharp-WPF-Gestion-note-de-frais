@@ -41,22 +41,6 @@ namespace Projet_gsb_Cath_Ben_Franck_Glad.Modele.DAO
                 if (LaConnexion == null)
                 { 
 
-                    // connection Amelie
-                    
-                   /* string serveur = "Data Source=ADMIN-PC\\SQLSERVERPERSO;";
-                    string bd = "Initial Catalog=gsb;";
-                    string login = "User Id=amelie;";
-                    string mdp = "Password=sio;";
-                    string connectionString = serveur + bd + login + mdp;*/
-                
-                    // connection Franck
-                    /*
-                    string serveur = "Data Source=BTSWIN7-99\\MSSERVERPERSO;";
-                    string bd = "Initial Catalog=gsb;";
-                    string login = "User Id=franck;";
-                    string mdp = "Password=sio;";
-                    string connectionString = serveur + bd + login + mdp;*/
-
                     // connection Ben 
                     string serveur = "Data Source=DESKTOP-UJTLU9S\\SQLEXPRESS;";
                     string bd = "Initial Catalog=gsb;Integrated Security=True;";
