@@ -44,9 +44,6 @@ namespace Projet_gsb_Cath_Ben_Franck_Glad.Modele.DAO
                     // connection Ben 
                     string serveur = "Data Source=DESKTOP-UJTLU9S\\SQLEXPRESS;";
                     string bd = "Initial Catalog=gsb;Integrated Security=True;";
-                    //string login = "User Id=benjamin;";
-                    //string mdp = "Password=sio0402;";
-                    //string connectionString = serveur + bd + login + mdp;
                     string connectionString = serveur + bd;
 
                     LaConnexion = new SqlConnection(connectionString);
